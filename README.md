@@ -1,3 +1,3 @@
 **Perlmutter Tutorial**
 
-Getting start with Perlmutter   
+Getting start with Perlmutter 
