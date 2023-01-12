@@ -58,26 +58,6 @@ Use `Esc` and `:q` to exit.
 (`:q!` if you want to discard changes).
 Try out the [interactive vim tutorial](https://www.openvim.com/) to learn more.
 
-## SSHFS
-
-SSHFS is a utility that allows you to mount remote file systems to your local
-system using SSH.  This has the advantage that you can use your favorite editor
-such as Atom, Gnome Builder, Sublime Text, or Bloodshed Dev-C++ to edit files
-on a remote file system.  To use SSHFS just install `sshfs` using your package
-manager and then mount the remote file system to your local system.
-
-```Bash
-[xiii@shini ~]$ mkdir cori
-[xiii@shini ~]$ sshfs brock@cori.nersc.gov: cori
-Password + OTP:
-[xiii@shini ~]$ cd cori
-[xiii@shini cori]$ ls
-intel  local  src
-```
-
-You can now direct your local editor to the files you want to edit in the
-new mounted directory.
-
 ## Compiler
 
 Compilers on Perlmutter are selected using a "programming environment" module.  No matter
